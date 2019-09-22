@@ -1,0 +1,50 @@
+#sec-branner{
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	font-size: small;
+}
+
+#sec-content{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-left: 100px;
+	    font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif,Simsun;
+}
+
+
+.sec-type{
+	width: 28%;
+	height: 200px;
+	margin-left: 10px;
+	padding: 5px;
+	border: 0.5px solid darkgray;
+	float: left;
+	margin-top: 10px;
+	
+}
+
+.sec-title{
+	width: 100%;
+}
+
+.sec-type li{
+	list-style: none;
+	margin-top: 8px;
+}
+
+
+
+.sec-left{
+	float: left;
+	font-size: larger;
+}
+
+.sec-show{
+	margin-top: 10px;
+}
+
+.sec-right{
+	float: right;
+	font-size: small;
+}
