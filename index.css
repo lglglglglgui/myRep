@@ -1,0 +1,229 @@
+body,div{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#containerDiv{
+	margin: 0 auto;
+	width: 100%;
+	height: 1000px;
+
+}
+
+#search{
+	float: right;
+	margin-right: 80px;
+	margin-top: 40px;
+}
+#bannerDiv{
+	width: 100%;
+	height: 120px;
+	background-color: #BBB;
+}
+
+#banner{
+	font-size: larger;
+	float: left;
+	font-family: "微软雅黑";
+	color: #FF0000;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+
+
+#logo{
+	display: inline-block;
+    height: 32px;
+    width: 45px;
+    font: normal 14px/26px "微软雅黑";
+  	
+}
+
+#ser{
+	color: #c6c6c6;
+    width: 279px;
+    padding-left: 25px;
+    font: normal 12px/26px "微软雅黑";
+    height: 32px;
+    line-height: 32px;
+    background: url(../images/search-bj_03.jpg) no-repeat;
+    display: inline;
+}
+
+#middleDiv{
+	width:85%;
+	margin: 0 auto;
+
+
+}
+
+#navigationDiv{
+	width: 100%;
+	height: 72px;
+
+	
+}
+
+#navigationDiv ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#navigationDiv a{
+	line-height: 72px;
+	normal 16px/36px "微软雅黑"
+	
+}
+
+#navigationDiv a:link,a:visited
+{
+display:block;
+width:143px;
+font-weight:bold;
+color:#005296;
+background-color:#ffffff;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+#navigationDiv a:hover,a:active
+{
+background-color:#005296;
+color: white;
+}
+
+#navigationDiv li{
+	display: inline;
+	float: left;
+}
+
+#navigationDiv ul li:hover ul{display: block;background-color:#005296}
+#navigationDiv ul li ul li{float: none}
+#navigationDiv ul li ul li a:hover{color:#ffffff;}
+#navigationDiv ul li ul{display: none;}
+
+
+
+#imageDiv{
+	width:100%;
+	height: 280px;
+	padding: 8px 0px;
+}
+
+#middle{
+	width: 100%;
+	height: 65%;
+	margin-top: 10px;
+
+}
+.month{
+	border: 0.5px solid darkgray;
+	width: 30%;
+	height: 100%;
+	padding: 5px;
+	float: left;
+	margin-left: 20px;
+	
+}
+.month-head span{
+	float: left;
+	font-size: larger;
+}
+.month-mon{
+	float: left;
+	font-size: larger;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.month-head .month-more{
+	float: right;
+	font-size: small;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.month-body{
+	margin-top: 40px;
+	text-align: left;
+}
+
+
+.month-body li{
+	list-style: none;
+}
+
+.icon1{
+	background: #d32f2f;
+    color: #fff;
+    width: 16px;
+     height: 16px;
+    text-align: center;
+    line-height: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.icon2{
+	 background: #fc7403;
+    color: #fff;
+    width: 16px;
+	text-align: center;
+    line-height: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.icon3{
+	background: #f8cc1c;
+	color: #fff;
+    width: 16px;
+	text-align: center;
+    line-height: 16px;
+    display: inline-block;
+    float: left;
+}
+
+
+#footerDiv{
+	border: 0.5px solid darkgray;
+	width: 80%;
+	height: 120px;
+	padding-top: 4px;
+	clear: both;
+	margin-left: 150px;
+	
+}
+
+#footerDiv a{
+	
+	    margin-right: 20px;
+    color: #333;
+    letter-spacing: 1px;
+    float: left;
+    white-space: nowrap;
+        text-decoration: none;
+}
+
+
+#ul1{
+	list-style:none;
+	position:relative;
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+#ul1 li{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	float:left;
+	text-align:center;
+	padding:0px;
+	margin:0px;	
+}
